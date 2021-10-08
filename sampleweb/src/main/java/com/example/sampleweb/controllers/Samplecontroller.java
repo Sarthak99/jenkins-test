@@ -9,7 +9,7 @@ public class Samplecontroller {
 
     @GetMapping("/hello/{name}")
     public String getData(@PathVariable String name){
-        String val = "Hello2222 "+ name;
+        String val = "Hello "+ name;
         return val;
     }
 
